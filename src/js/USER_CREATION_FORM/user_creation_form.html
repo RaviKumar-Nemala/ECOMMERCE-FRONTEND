@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel = "stylesheet" href = "user_creation_form.css">
+     <title>Document</title>
+</head>
+<body>
+     <div class="login_container">
+
+          <div class="full_name_div">
+                <p>Your Name</p>
+                <span class = "error_displayer">name should not be null , should contain atleast 3 characters , should not contain any special characters</span>
+               <input type = "text">
+               <span class = "specific_error_displayer"></span> 
+          </div>
+          
+          <div class="email_div">
+               <p>Email</p>
+               <span class = "error_displayer"></span>
+               <input type = "email" > 
+               <span class = "specific_error_displayer"></span> 
+          </div>
+          
+          <div class="password_div">
+               <p>Password</p>
+               <span class = "error_displayer">password must contain one uppercase letter , one lowercase letter, one special character , one number  and be at least 6 characters long</span>
+               <input type  = "password">
+               <span class = "specific_error_displayer"></span> 
+          </div>
+          
+          <div class="confirm_password_div">
+               <p>Confirm password</p>
+               <span class = "error_displayer"></span>
+               <input type ="password">
+               <span class = "specific_error_displayer"></span> 
+          </div>
+          <button class ="create_account">Create Account</button>
+     
+          <p class = "or"> or </p>
+     
+          <button class = "existing_account">Login  with existing account</button>
+     
+     </div>
+
+<script  type = "module" src = "./user_creation_form.js"></script>
+</body>
+</html>

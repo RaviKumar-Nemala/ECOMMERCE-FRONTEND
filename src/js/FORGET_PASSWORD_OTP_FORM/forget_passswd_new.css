@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+     font-family :  Poppins , sans-serif;
+     margin :  0px ;
+     padding : 0px ;
+     outline:none;
+     border:none;
+}
+body 
+{
+     min-height :  100vh;
+     display : flex ;
+     justify-content: center;
+     align-items: center;
+     background-color: #222a32;
+     flex-direction: row;
+}
+
+.hide
+{
+     display:none;
+}
+.error_msg
+{
+     color : red;
+     font-size: 15px;
+     padding:20px;
+     text-align: center;
+}
+.otp_container
+{
+     background-color: #252d35;
+     padding:20px 0px;   
+     border-radius: 10px;
+     border: 2px solid red;
+}
+ .material-symbols-outlined
+{
+     color : black;
+     font-size : 80px;
+     color : black;
+}
+.title 
+{
+     text-align: center;
+}
+.title  h2 
+{
+     font-size : 25px;
+     font-family : sans-serif;
+     color  : #fff;
+     padding :  10px;
+}
+.sub_text
+{
+     text-align: center;
+}
+
+.sub_text span
+{
+     color : black;
+     font-size : 18px;
+     padding :10px;
+     margin : 10px 0px;
+}
+
+.time_displayer
+{
+     color: white;
+     
+     font-size : 16px;
+
+     font-weight :  bold ; 
+
+     text-align : center  ;
+     
+     padding :  15px ;
+
+}
+
+.otp_code 
+{
+     display:flex;
+     flex-direction: row;
+     gap : 10px;
+     margin-top : 30px;
+     justify-content: center;
+     padding-bottom:20px;
+}
+.otp_code  input 
+{
+     border : none ;
+     outline :none;
+     height : 60px;
+     width : 60px;
+     font-size : 35px;
+     text-align: center;
+     background-color: aliceblue;
+}
+
+.resend_container 
+{
+     text-align : center;
+     font-size : 18px;
+     padding : 20px;
+}
+.resend_container  a{
+     color : black;
+     text-decoration: none;
+     margin-left :5px;
+     cursor : none;
+}
+
+
+
+
+.verify_btn_container 
+{
+     text-align : center;
+     cursor: pointer;
+}
+.verify_btn
+{
+     font-size :  18px;
+     padding :  15px 0px ;
+     background-color: #7893c0dd;
+     width : 300px;
+     border-radius: 10px;;
+     color : white;
+     font-weight: bold;
+     text-align:center;
+     cursor:pointer;
+}
+.active
+{
+     color :  white;
+     background-color: #0e87d8;
+}
+
+@media( max-width :  320px)
+{
+     .verify_btn
+{
+     font-size :  12px;
+     padding :  7px 0px ;
+     background-color: #7893c0dd;
+     width : 50vw;
+     border-radius: 10px;;
+     color : white;
+     font-weight: bold;
+     text-align:center;
+     cursor:pointer;
+}
+.otp_code  input 
+{
+     height : 18vw;
+     width : 18vw;
+     font-size : 17px;
+}
+
+}

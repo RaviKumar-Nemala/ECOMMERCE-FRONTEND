@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="./FRONT_PAGE/front_page.css">
+     <link rel ="stylesheet" href ="./HEADER_SECTION/header.css">
+     <link rel ="stylesheet" href="./HEADER_SECTION/mobile_layout_header.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+     <script type="module" src="./FRONT_PAGE/front_pg_controller.js" defer></script>
+     <script type="module" src="./HEADER_SECTION/header.js" defer></script>
+     <script type="module" src="./HEADER_SECTION/input_based_search.js" defer></script>
+</head>
+<body>
+     <header>
+          <div class="header_container">
+               <div class ="home_btn">Home</div>
+               <div class="search_wrapper">
+               <input type="text" class = 'user_input' placeholder="search here">
+               <div  class ="auto_captions_container disable">
+                    <ul class  = "auto_captions_list"> 
+                     <!-- <li>laptops</li>
+                     <li>laptops under 10,000</li>
+                     <li>laptops under 20,000</li> -->
+                    </ul>
+               </div>
+               </div>
+               <div class = "user_login_status">
+               </div>
+               <div class="carts_wrapper">
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    <p class ="no_of_carts">[2]</p>
+               </div>
+               <div class = "options_btn">
+                    <i class="fa-solid fa-bars"></i>
+               </div>
+          
+               <div class = "total_account_options disable">
+                    <!-- <div class ="carts">
+                         Carts
+                    </div>
+                    <div class ="orders">My Orders</div>
+                    <div class ="returns_refunds">Returns&Refunds</div>
+                    <div class ="my_profile">
+                         My Profile
+                    </div>
+                    <div class ="sign_out"> 
+                         Sign Out
+                    </div> -->
+               </div>
+          
+               </div>
+          
+     </header>
+
+     <div class="category_container">
+          <ul class="categories_list">
+               <li class="category_item">
+                    <img class="category_logo" src="./FRONT_PAGE/IMGS/phones.webp">
+                    <div class="category_name">phones</div>
+               </li>
+               <li class="category_item">
+                    <img class="category_logo" src="./FRONT_PAGE/IMGS/laptops.jpg">
+                    <div class="category_name">laptops</div>
+               </li>
+               <li class="category_item">
+                    <img class="category_logo" src="./FRONT_PAGE/IMGS/shirts.jpg">
+                    <div class="category_name">shirts</div>
+               </li>
+               <li class="category_item">
+                    <img class="category_logo" src="./FRONT_PAGE/IMGS/tvs.webp">
+                    <div class="category_name">tvs</div>
+               </li>
+               <li class="category_item">
+                    <img class="category_logo" src="./FRONT_PAGE/IMGS/shoes.webp">
+                    <div class="category_name">shoes</div>
+               </li>
+               <li class="category_item">
+                    <img class="category_logo" src="./FRONT_PAGE/IMGS/watches.jpg">
+                    <div class="category_name">watches</div>
+               </li>
+          </ul>
+     </div>
+
+     <div class="parent">
+          <!-- <div  class ="child">DIV1</div>
+          <div  class ="child">DIV2</div>
+          <div  class ="child">DIV3</div>
+          <div  class ="child">DIV4</div>
+          <div  class ="child">DIV5</div> -->
+     </div>
+
+     <div class="container">
+
+          <div class="products_container" id = "phones_container">
+               <h3>Phones Collection</h3>
+
+               <div class=items>
+                    <div class="left_scr_btn"><i class="fa-sharp fa-solid fa-arrow-left" id="left_arrow"></i>
+                    </div>
+                    <ul class="products_list">
+
+                    </ul>
+                    <div class="right_scr_btn"><i class="fa-sharp fa-solid fa-arrow-right" id="right_arrow"></i></div>
+               </div>
+          </div>
+
+          <div class="products_container" id = "laptops_container">
+               <h3>Laptops Collection</h3>
+               <div class=items>
+                    <div class="left_scr_btn"><i class="fa-sharp fa-solid fa-arrow-left" id="left_arrow"></i>
+                    </div>
+                    <ul class="products_list">
+
+                    </ul>
+                    <div class="right_scr_btn"><i class="fa-sharp fa-solid fa-arrow-right" id="right_arrow"></i></div>
+               </div>
+          </div>
+
+
+          <div class="products_container" id = "shoes_container">
+               <h3>Shoes Collection</h3>
+               <div class=items>
+                    <div class="left_scr_btn"><i class="fa-sharp fa-solid fa-arrow-left" id="left_arrow"></i>
+                    </div>
+                    <ul class="products_list">
+
+                    </ul>
+                    <div class="right_scr_btn"><i class="fa-sharp fa-solid fa-arrow-right" id="right_arrow"></i></div>
+               </div>
+          </div>
+          <div class="products_container" id = "watches_container">
+               <h3>Watches Collection</h3>
+               <div class=items>
+                    <div class="left_scr_btn"><i class="fa-sharp fa-solid fa-arrow-left" id="left_arrow"></i>
+                    </div>
+                    <ul class="products_list">
+
+                    </ul>
+                    <div class="right_scr_btn"><i class="fa-sharp fa-solid fa-arrow-right" id="right_arrow"></i></div>
+               </div>
+          </div>
+
+          <div class="products_container" id = "shirts_container">
+               <h3>Shirts Collection</h3>
+               <div class=items>
+                    <div class="left_scr_btn"><i class="fa-sharp fa-solid fa-arrow-left" id="left_arrow"></i>
+                    </div>
+                    <ul class="products_list">
+
+                    </ul>
+                    <div class="right_scr_btn"><i class="fa-sharp fa-solid fa-arrow-right" id="right_arrow"></i></div>
+               </div>
+          </div>
+
+     </div>
+
+</body>
+
+</html>

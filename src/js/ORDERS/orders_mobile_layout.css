@@ -1,0 +1,146 @@
+@media(  max-width  :  500px)
+{
+
+     .container
+{
+     padding-top:100px;
+     margin-left:10px;
+     width :  80%;
+}
+
+
+.orders_list
+{
+     gap : 15px;
+}
+
+.order_item 
+{
+     /* height:  300px; */
+     max-height  : 350px;
+     width:80%;
+     border-radius : 5px;
+     box-shadow: 0 0 5px black;
+}
+
+.order_item > .top_section 
+{
+     min-height :50px;
+     /* background-color: #3C486B; */
+     display : flex;
+     gap  : 50px;
+     color : white;
+     padding: 10px 0px 10px 0px;
+}
+.top_section > .order_date 
+{
+     margin-left: 10px;
+     text-align: left;
+     margin-bottom : 5px;    
+
+     /* padding : 0px 40px; */
+
+}
+.top_section > .amount_div 
+{
+     margin-right : 30px;
+}
+
+.top_section > .order_date > .ord_txt , .amount_div > .amount_txt{
+     font-size :  15px;
+     
+}
+
+.top_section >.ord_date > .ord_date_val ,  .top_section > .amount_div  > .amount_val
+{
+     
+     font-size :  15px;
+}
+
+.order_item >  .bottom_section 
+{
+     background-color: rgb(255, 250, 250);
+     
+     display : flex;
+     flex-direction: row;
+     gap :  10px;
+}
+.bottom_section > .product_img_div
+{
+     border:  none;
+     cursor: pointer;
+}
+.bottom_section > .product_img_div > .product_img
+{
+     width :  250px;
+     max-height: 180px;
+     object-fit: contain;
+}
+
+
+.bottom_section > .product_content 
+{
+     flex-grow :  1 ;
+     /* border : 2px solid black   ; */
+     position : relative;
+     display: flex;
+     flex-direction: column;
+     /* background-color: #3C486B; */
+}
+
+.product_content .product_name 
+{
+     font-size :  18px;
+     color : black ;
+     /* color : white; */
+     margin-top : 10px;
+     padding:5px;
+     cursor: pointer;
+     width  :100%;
+     text-align: start;
+}
+.product_content > * 
+{
+     flex-grow : 1 ;
+}
+.product_content > .btns
+{
+     height :  80px;
+     width : 100%;
+     /* border:  2px solid brown; */
+     display : flex; 
+     justify-content: flex-start;
+     gap :  20px;
+     align-items: center;;
+     padding-bottom:  10px;;
+}
+
+.btns > * 
+{
+     font-size :  15px;
+     /* width :  150px; */
+     height :  50px;
+     color : black;
+     cursor : pointer;
+     border-radius:5px;
+}
+.btns  > .write_review
+{
+     background-color: #F45050;
+}
+
+.btns > .cancel_ord 
+{
+     background-color : #F9D949;
+}
+.btns > *:hover
+{
+     background-color:  #fff;
+     color: black ;
+     border :  1px solid black;
+     transition : 0.3s;
+}
+
+
+
+}

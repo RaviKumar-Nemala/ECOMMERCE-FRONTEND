@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <link rel = "stylesheet"  href = "./forget_passswd_new.css">
+     <!-- <link rel ="stylesheet" href ="../FORGET_PASSWORD_OTP_FORM/forget_passwd_otp.css"> -->
+     <title>Document</title>
+
+</head>
+<body>
+     <div class = "otp_container hide">
+          <div class = "title">
+          <span class="material-symbols-outlined">
+               verified_user
+               </span>
+          <h2>OTP Verification</h1>
+     </div>
+     <div class ="sub_text">
+          <span></span>
+     </div>
+
+     <div class = "time_displayer">  
+          <span>Please wait for </span>
+           <span class = "time_val" style = "color:green"></span> 
+           <span>before requesting the new OTP.</span>
+     </div>
+
+
+     <div class = "otp_code">
+          <input type  = "text" maxlength="1" required > 
+          <input type  = "text" maxlength="1" required > 
+          <input type  = "text" maxlength="1" required > 
+          <input type  = "text" maxlength="1" required > 
+     </div>
+     <p class = "error_msg hide"></p>
+     <p class = "resend_container"> don't get the otp ?<a class ="resend_btn activate" > resend </p></p>
+     <div class ="verify_btn_container" > 
+     <button  class =  verify_btn > verify</button>
+     </div>
+</div>
+
+<script src = "forget_password_new.js" type = "module"></script>
+<!-- <script src ="timer.js" type ="module"></script> -->
+</body>
+</html>

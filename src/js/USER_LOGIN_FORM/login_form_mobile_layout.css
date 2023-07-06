@@ -1,0 +1,38 @@
+@media(max-width : 600px)
+{
+     body 
+     {
+          justify-content: flex-start;
+          
+     }
+     .user_login_container
+     {
+          width : auto;
+          height : 300px;
+          margin-top:50px;
+     }
+     .user_login_container  .login_title
+{
+     padding : 20px 0px;
+     font-size : 20px;
+}
+
+.username_div input , .password_div input
+{
+     padding : 15px 0px;
+     font-size : 18px;
+     color :  black;
+}
+.user_login_container .sign_in 
+{
+     padding : 10px;
+     width:150px;
+     font-size : 20px;
+     border-radius: 0px;
+     margin-top:18px;
+     border-radius: 2px;
+}
+
+
+
+}

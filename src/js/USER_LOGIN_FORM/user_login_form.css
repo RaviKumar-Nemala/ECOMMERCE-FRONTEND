@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+     margin : 0px ;
+     padding  : 0px ;
+     overflow: hidden;
+     border:none;
+     outline:none;
+     font-family: Poppins  , sans-serif ;
+}
+body 
+{
+     min-height : 100vh;
+     background-color: #3C486B;
+     display : flex;
+     flex-direction  : column;
+     align-items: center;
+     justify-content: center; 
+}
+.user_login_container
+{
+     background-color: #fff;
+     height :  370px;
+     width :  370px;
+     display : flex ;
+     flex-direction:  column;
+     border-radius: 10px;
+     padding: 0px 19px;
+}
+
+.user_login_container  .login_title
+{
+     padding : 20px 0px;
+     font-size : 30px;
+     text-align: center;
+     padding-bottom:30px;
+}
+.user_login_container .sign_in 
+{
+     padding : 15px 8px  15px 8px;
+     width  : 48%;
+     padding-right : 0px;
+     margin-bottom :  10px;
+     font-size : 20px;
+     color : white;
+     font-weight: bold;
+     margin-bottom:20px;
+     margin-left:auto;
+     margin-right:auto;
+     background-color: #F9D949;
+     border-radius: 5px;
+     margin-top:18px;
+     border-radius: 15px;
+}
+.username_div , .password_div
+{
+     display : flex;
+     flex-direction: row;
+     background-color: #f2f2f2;
+     margin-bottom:10px;
+     justify-content: flex-start;
+     padding:5px;
+     gap : 10px;
+}
+
+.username_div input , .password_div input
+{
+     width :  100%;
+     background-color: #f2f2f2;
+     padding : 15px 0px;
+     font-size : 18px;
+     color :  black;
+}
+
+.fa-solid
+{
+     padding:10px;
+     padding-top : 13px;
+     font-size : 22px;
+}
+
+.lost_password
+{
+     color : black ;
+     background-color: #fff;
+     color :  #7a7a7a;
+     padding:5px;
+     font-size :  17px;
+     font-weight: lighter;
+}
+
+.bottom_section 
+{
+     padding-top :  10px;
+     color :  white;
+     cursor: pointer;
+}
+.bottom_section span 
+{
+     margin-right :  10px;
+}
+
+.login_error_displayer 
+{
+     display :  none ;       
+}
+
+.display_error 
+{
+     display  : block;
+     color  : red ; 
+     font-size :  15px ;
+     font-weight:  lighter;
+     text-transform: lowercase;
+     padding :  10px; 
+}
+
+.input_focus 
+{
+     border  : 2px solid red ; 
+}    
+
+.user_login_container > .sign_in:hover
+{
+     background-color: #fff;
+     color :black;
+     border: 2px solid black;
+     transform: scale(1.04,1.04);
+     transition: 0.3s;
+     cursor: pointer;
+}

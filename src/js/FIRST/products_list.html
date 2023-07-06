@@ -1,0 +1,135 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- <link rel = "stylesheet" href = "sample_img.css">  -->
+     <link rel = "stylesheet" href = "./sample_card.css">
+     <link rel = "stylesheet" href = "../HEADER_SECTION/header.css">
+     <link rel="stylesheet" href="../HEADER_SECTION/mobile_layout_header.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <link rel = "stylesheet"  href = "./sample_card_mobile.css">
+     <link rel="stylesheet" type="text/css"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+     <title>Document</title>
+     <script defer type = module src = "./Product_Items_Controller.js"></script>
+     <script  defer type = module src ="./Product_Items_Model.js"></script>
+     <script defer type =module src ="./Product_Items_View.js"></script>
+     <script defer type = "module" src = "../SEND_REQUESTS/request_sender.js"></script>
+     <script  defer type ="module" src = "../PRODUCT_FOCUS/CATEGORY_BASED_DATA/category_data_retrival.js"></script>
+     <script defer type = "module" src = "../HEADER_SECTION/input_based_search.js"></script>     
+     <script  defer type =  "module" src = "../HEADER_SECTION/header.js"></script>
+     <script defer src ="./Brand_Price_Based_Data_Retrival.js" type = "module"></script>
+</head>
+<body>
+     <header>
+     <div class="header_container">
+          <div class ="home_btn">Home</div>
+     <div class="search_wrapper">
+     <input type="text" class = 'user_input' placeholder="search here">
+     <div  class ="auto_captions_container disable">
+          <ul class  = "auto_captions_list"> 
+           <!-- <li>laptops</li>
+           <li>laptops under 10,000</li>
+           <li>laptops under 20,000</li> -->
+          </ul>
+     </div>
+     </div>
+     <div class = "user_login_status">
+     </div>
+     <div class="carts_wrapper">
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+          <p class ="no_of_carts">[2]</p>
+     </div>
+     <div class = "options_btn">
+          <i class="fa-solid fa-bars"></i>
+     </div>
+
+     <div class = "total_account_options disable">
+          <!-- <div class ="carts">
+               Carts
+          </div>
+          <div class ="orders">My Orders</div>
+          <div class ="returns_refunds">Returns&Refunds</div>
+          <div class ="my_profile">
+               My Profile
+          </div>
+          <div class ="sign_out"> 
+               Sign Out
+          </div> -->
+     </div>
+
+     </div>
+     </header>
+     
+     <div class="content_div">
+
+          <div class  = "sorting_container">
+               <div class ="brand_container">
+                    Brand
+                    <!-- <div class ="brand_item" id = "brand_item_1">
+                         <input type="checkbox" id = "checkbox_1">
+                         <label  for = "checkbox_1" > ASUS</label>
+                    </div>
+                    <div class ="brand_item" id = "brand_item_2">
+                         <input type="checkbox" id ="checkbox_2">
+                         <label  for = "checkbox_2" >DELL</label>
+                    </div>
+                    <div class ="brand_item" id = "brand_item_3">
+                         <input type="checkbox"  id = "checkbox_3">
+                         <label  for = "checkbox_3" >HP</label>
+                    </div>
+                    <div class ="brand_item" id = "brand_item_3">
+                         <input type="checkbox" id = "checkbox_4">
+                         <label  for = "checkbox_4" >LENOVO</label>
+                    </div>
+                    <div class ="brand_item" id = "brand_item_3">
+                         <input type="checkbox" id = "checkbox_5">
+                         <label  for = "checkbox_5" >MACBOOK</label>
+                    </div> -->
+               </div>
+               <div class = "price_range_container">
+                    <!-- Price
+                    <div class ="price_item" id = "price_item_1">
+                         <input type = "checkbox" id  ="checkbox_1">
+                         <label for = "checkbox_1">Any Price</label>
+                    </div>
+                    <div class ="price_item" id = "price_item_2">
+                         <input type = "checkbox" id ="checkbox_2">
+                         <label for = "checkbox_2">Under 20,000</label>
+                    </div>
+                    <div class ="price_item" id = "price_item_3">
+                         <input type = "checkbox" id="checkbox_3">
+                         <label for = "checkbox_3">20,000 - 30,000</label>
+                    </div>
+                    <div class ="price_item" id = "price_item_4">
+                         <input type = "checkbox" id ="checkbox_4">
+                         <label for = "checkbox_4">30,000 - 40,000</label>
+                    </div> -->
+               </div>
+               <div  class = "Apply_btn_container">
+                    <button  class = "Apply_btn">
+                         Apply
+                    </button>
+               </div>
+          </div>
+          <ul class ="products">
+          <!-- <li class = "product_item">
+               <div class="product_image_div"></div>
+               <div class="product_content_div">
+                    <div class="product_name_div">
+                    <p class ="product_name"></p>
+                    </div>
+                    <div class ="product_price"></div>
+               </div>
+          </li>  -->
+
+          </ul>
+
+     </div>
+</body>
+</html>
+
+
+<!-- <i class="fa-solid fa-indian-rupee-sign"></i> -->

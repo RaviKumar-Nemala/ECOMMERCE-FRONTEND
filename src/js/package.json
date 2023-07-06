@@ -1,0 +1,15 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "default":"index.html",
+  "scripts": {
+    "dev": "parcel  index.html ./FIRST/products_list.html ./PRODUCT_FOCUS/product_focus.html ./CARTS/carts.html ./FORGET_PASSWORD_EMAIL_FORM/Forget_Password_Email.html ./FORGET_PASSWORD_OTP_FORM/forget_passwd_otp.html ./FORGET_PASSWORD_UPDATION_FORM/forget_passwd_update.html ./ORDERS/orders.html ./RETURNS_REFUNDS/returns_refunds.html ./USER_CREATION_FORM/user_creation_form.html ./USER_LOGIN_FORM/user_login_form.html ./USER_OTP_FORM/user_otp_form.html",
+    "build": "parcel build index.html ./FIRST/products_list.html ./PRODUCT_FOCUS/product_focus.html ./CARTS/carts.html ./FORGET_PASSWORD_EMAIL_FORM/Forget_Password_Email.html ./FORGET_PASSWORD_OTP_FORM/forget_passwd_otp_form.html ./FORGET_PASSWORD_UPDATION_FORM/forget_passwd_update.html ./ORDERS/orders.html ./RETURNS_REFUNDS/returns_refunds.html ./USER_CREATION_FORM/user_creation_form.html ./USER_LOGIN_FORM/user_login_form.html ./USER_OTP_FORM/user_otp_form.html"
+  },
+  "author": "ravi",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

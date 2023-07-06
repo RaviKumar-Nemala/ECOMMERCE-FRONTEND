@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- <link rel ="stylesheet" href ="../HEADER_SECTION/header.css"> -->
+     <link rel="stylesheet" href="./PRODUCT_FOCUS_CSS/product_focus_2.css">
+     <link rel="stylesheet" href ="../HEADER_SECTION/mobile_layout_header.css">
+     <link rel = "stylesheet" href="./PRODUCT_FOCUS_CSS/product_focus_mobile_layout.css">
+     <link rel="stylesheet" type="text/css"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <link rel="stylesheet" href="./PRODUCT_FOCUS_CSS/products_down_section.css">
+     <link rel ="stylesheet" href ="./PRODUCT_FOCUS_CSS/product_down_section_mobile.css">
+
+     <script  type = "module" defer  src ="Specific_Product_Controller.js"></script>
+     <script  type = "module" defer src ="Specific_Product_Model.js"></script>
+     <script  type = "module" defer src ="Specific_Product_View.js"></script>
+     <script type = "module" defer src ="../HEADER_SECTION/input_based_search.js"></script>
+     <script  type =  "module" defer src = "../HEADER_SECTION/header.js"></script>
+     <!-- <script async src="https://checkout.razorpay.com/v1/checkout.js"></script> -->
+     <script type = "module" defer src ="../PAYMENTS/payments.js"></script>
+     <title>Document</title>
+</head>
+
+<body>
+
+          <div class="header_container">
+               <div class ="home_btn">Home</div>
+          <div class="search_wrapper">
+          <input type="text" class = 'user_input' placeholder="search here"> 
+          <div  class ="auto_captions_container disable">
+               <ul class  = "auto_captions_list"> 
+                <!-- <li>laptops</li>
+                <li>laptops under 10,000</li>
+                <li>laptops under 20,000</li> -->
+               </ul>
+          </div>
+          </div>
+          <div class = "user_login_status">
+               <div class = "account_options">
+               <div class = "my_profile">MY PROFILE</div>
+               <div class = "sign_out">SIGN OUT</div>
+               </div>
+          </div>
+          <div class="carts_wrapper">
+               <p class ="no_of_carts">[2]</p>
+               <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class = "options_btn disable">
+               <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class = "total_account_options disable">
+               <!-- <div class ="carts">
+                    Carts
+               </div>
+               <div class ="orders">My Orders</div>
+               <div class ="returns_refunds">Returns&Refunds</div>
+               <div class ="my_profile">
+                    My Profile
+               </div>
+               <div class ="sign_out"> 
+                    Sign Out
+               </div> -->
+          </div>
+          
+          </div>
+
+     <div class="main_div">
+
+
+          <div class = "msg_div hide">
+              <!-- <p>Item added into carts</p>
+              <i class="fa-solid fa-xmark"></i> -->
+          </div>
+          <div class="main_product_div">
+
+               <div class="product_image_div">
+
+                    <!-- class="product_main_image"> -->
+                    <div class="product_side_image">
+
+                         <ul class="side_img_list">
+
+                              <!-- <li>
+               <img src ="temp.jpg">
+                 
+          </li>
+          <li>
+               <img src ="temp.jpg">
+          </li>
+          <li>
+               <img src ="temp.jpg">
+          </li>
+          <li>
+               <img src ="temp.jpg">
+          </li> -->
+
+                         </ul>
+
+                    </div>
+                    <div class="product_main_image_div">
+                         <img class="product_main_image">
+                    </div>
+               </div>
+
+               <div class="content_div">
+                    <div class="product_name_div">
+                         <p class="product_name">
+                         </p>
+                    </div>
+                    <div class="product_price">
+                    </div>
+                    <ul class="product_cart_and_buy">
+                         <li class="cart_btn">
+                              ADD TO CART
+                         </li>
+                         <li class="buynow_btn">
+                              BUY NOW
+                         </li>
+
+                    </ul>
+
+                    <div class="product_specifications_div" style="font-size : 30px">
+                         <div class="specifications_header">
+                              About This Item
+                         </div>
+                         <ul class="specifications_content">
+                         </ul>
+
+                    </div>
+                    <div class="read_more">Read_more
+                    </div>
+                    <ul class="disable" id="more_specifications">
+                    </ul>
+                    <div class="read_less disable">Read_less</div>
+
+               </div>
+
+          </div>
+
+     </div>
+
+     <!-- SOME RELATED PRODUCTS -->
+     
+     <div class="down_section">
+
+          <h2> PRODUCTS RELATED TO THIS ITEM </h2>
+
+          <ul class="related_items_list" id = "related_items_list_1">
+                    <!-- <li>
+                         <div class="image_div">
+                              <img src="temp.jpg" alt="">
+                         </div>
+
+                         <div class="name_div">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias,
+                              libero.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, veniam.Lorem
+                              ipsum, dolor sit amet consectetur adipisicing elit. Facere, vel.</div>
+
+                         <div class="price_div">30000</div>
+                    </li> -->
+               
+                    
+
+               <!-- <li class = "product_item">
+               <div class="product_image_div"></div>
+               <div class="product_content_div">
+                    <div class="product_name_div">
+                    <p class ="product_name"></p>
+                    </div>
+                    <div class ="product_price"></div>
+               </div>
+          </li>  -->
+                    
+
+
+               </ul>
+          
+          <h2>PEOPLE ALSO WATCHED THIS</h2>
+               <ul  class ="related_items_list " id = "related_items_list_2">
+
+               </ul>
+
+     </div>
+     <!-- <script type="module" src="./product_focus.js"></script> -->
+     <!-- <script type="module" src ="./product_cart_buy_btns.js"></script> -->
+     <!-- <script type="module" src ="./product_down_section.js"></script> -->
+</body>
+
+</html>

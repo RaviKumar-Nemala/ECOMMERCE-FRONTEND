@@ -1,0 +1,124 @@
+
+@media( max-width:1000px)
+{
+     .header_container
+     {
+          gap:2px;
+     }
+     .search_wrapper
+     {
+          margin-left:180px;
+          flex-basis: 430px;
+          margin-right:16px;
+          flex-grow:1;
+          /* border:2px solid black; */
+     }
+
+     .user_login_status
+     {
+          padding:0px 5px ;
+          flex-shrink:0;
+          margin-right:0px;
+          padding:0px 10px;
+          font-size: 17px;
+          /* border:2px solid red; */
+     }
+.no_of_carts
+{
+     font-size :  19px;
+}
+
+.fa-cart-shopping 
+{
+     font-size : 19px;
+}     
+
+}
+
+
+@media ( max-width:800px )
+{
+     .header_container
+     {
+          gap:5px;
+     }
+     .search_wrapper
+     {
+          margin-left:100px;
+          flex-basis:30%;
+          max-width:400px;
+          margin-right:10;
+          /* border:2px solid black; */
+     }
+
+     .user_login_status
+     {
+          padding:0px 5px ;
+          flex-shrink:0;
+          margin-right:0px;
+          padding:0px 10px;
+          font-size: 16px;
+          /* border:2px solid red; */
+     }
+
+     .no_of_carts , .fa-cart-shopping
+{
+     font-size :  16px;
+}
+
+}
+
+@media( max-width : 700px)
+{
+     .header_container
+     {
+          gap:5px;
+     }
+     .search_wrapper
+     {
+          margin-left:20px;
+          flex-basis:30%;
+          max-width:400px;
+          margin-right:10px;
+     }
+     .user_input
+{
+     font-size:15px;
+}
+.auto_captions_list li{
+     color : rgb(0, 0, 0);
+     padding:1px 0px 1px 3px;
+     font-size : 14px;
+     font-weight: bold;
+     cursor: pointer;
+}
+}
+
+@media( max-width : 500px)
+{
+     .header_container
+     {
+          gap:5px;
+     }
+     .options_btn
+{
+     display: block;
+}
+     .search_wrapper
+     {
+        margin-left: 1rem;
+     }
+     .carts_wrapper
+     {
+          display:none;
+     }
+     .user_login_status
+     {
+          display:none;
+     }
+
+     .home_btn 
+     {
+          font-size : 1em;
+     }
+}
