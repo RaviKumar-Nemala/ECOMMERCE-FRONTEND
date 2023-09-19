@@ -19,15 +19,21 @@ Welcome to the Ecommerce Application Frontend repository! This repository contai
 To get started with the project, follow these steps:
 
 1. Clone this repository to your local machine:
+
    git clone https://github.com/RaviKumar-Nemala/ECOMMERCE-FRONTEND
    
 3. Navigate to the project directory:
+
    cd src/js
 
 3.Install project dependencies:
+
    npm install parcel
+   
    npm install babel
 
 4. configure the backend-url in utils.js file
+
+
 5. To run the project :
       npm start dev
