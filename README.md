@@ -20,3 +20,7 @@ To get started with the project, follow these steps:
 
 1. Clone this repository to your local machine:
    git clone https://github.com/RaviKumar-Nemala/ECOMMERCE-FRONTEND
+2. Navigate to the project directory
+   cd src
+3.Install project dependencies:
+   
